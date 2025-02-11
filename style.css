@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	margin: 0px 50px;
+	background-color: rgb(18, 38, 48);
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+	font-weight: 200;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	font-weight: 200;
+	text-align: center;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+}
+
+section {
+	display: flex;
+	justify-content: center	;
+	margin: 40px;
+	flex-direction: column;
+
+}
+
+.inleiding-container img{
+	border-radius: 50%;
+	border: 1px solid white;
+	height: 200px;
+}
+
+.workexp-wrapper {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+
+.workexp-content {
+	border: 1px solid black;
+	border-radius: 40px;
+	background-color: rgb(26, 25, 25);
+	padding: 20px;
+	width: 300px;
+}
+
