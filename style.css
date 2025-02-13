@@ -72,8 +72,9 @@ section {
 }
 
 .inleiding-wrapper img {
-	height: 500px;
+	height: 300px;
 	object-fit: cover;
+	border-radius: 30px;
 }
 
 .inleiding-content {
