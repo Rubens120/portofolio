@@ -7,35 +7,42 @@ html {
 
 h1 {
 	font-size: 50px;
-	color: white;
+	color: rgb(240, 174, 174);
 	font-weight: 200;
 	text-align: center;
+	margin: 0;
 }
 
 h2 {
 	font-size: 40px;
-	color: white;
+	color: rgb(240, 174, 174);
 	font-weight: 400;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 h3 {
 	font-size: 25px;
 	font-weight: 300;
-	color: white;
+	color: rgb(240, 174, 174);
 	text-align: center;
 }
 
 p {
 	font-size: 20px;
-	color: white;
+	color: rgb(201, 200, 200);
 	font-weight: 200;
 	text-align: center;
+	margin: 10px;
+	line-height: 30px;
 }
 
-.img {
+.img img{
 	display: flex;
 	justify-content: center;
+	border-radius: 50%;
+	border: 1px solid white;
+	height: 200px;
 }
 
 section {
@@ -46,11 +53,35 @@ section {
 
 }
 
-.inleiding-container img{
-	border-radius: 50%;
-	border: 1px solid white;
-	height: 200px;
+.inleiding-container {
+	display: flex;
+	justify-content: center;
 }
+
+.inleiding-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.inleiding-text {
+	width: 50%;
+}
+
+.inleiding-text p {
+	text-align: left;
+}
+
+.inleiding-wrapper img {
+	height: 500px;
+	object-fit: cover;
+}
+
+.inleiding-content {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+
 
 .workexp-wrapper {
 	display: flex;
@@ -59,7 +90,6 @@ section {
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
-
 
 .workexp-content {
 	border: 1px solid black;
